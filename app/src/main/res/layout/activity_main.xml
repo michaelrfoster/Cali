@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#41C8EFFE"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/day1-1"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C9F0FF"
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day1-4"
+        app:layout_constraintEnd_toStartOf="@+id/day1-2"
+        app:layout_constraintTop_toTopOf="@+id/day1-4" />
+
+    <Button
+        android:id="@+id/day1-2"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day1-4"
+        app:layout_constraintEnd_toStartOf="@+id/day1-3"
+        app:layout_constraintTop_toTopOf="@+id/day1-4" />
+
+    <Button
+        android:id="@+id/day1-3"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day1-4"
+        app:layout_constraintEnd_toStartOf="@+id/day1-4"
+        app:layout_constraintTop_toTopOf="@+id/day1-4" />
+
+    <Button
+        android:id="@+id/day1-4"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/day1-5"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day1-4"
+        app:layout_constraintStart_toEndOf="@+id/day1-4"
+        app:layout_constraintTop_toTopOf="@+id/day1-4" />
+
+    <Button
+        android:id="@+id/day1-6"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day1-4"
+        app:layout_constraintStart_toEndOf="@+id/day1-5"
+        app:layout_constraintTop_toTopOf="@+id/day1-4" />
+
+    <Button
+        android:id="@+id/day1-7"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day1-4"
+        app:layout_constraintStart_toEndOf="@+id/day1-6"
+        app:layout_constraintTop_toTopOf="@+id/day1-4" />
+
+    <Button
+        android:id="@+id/day2-1"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day2-4"
+        app:layout_constraintEnd_toStartOf="@+id/day2-2"
+        app:layout_constraintTop_toTopOf="@+id/day2-4" />
+
+    <Button
+        android:id="@+id/day2-2"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day2-4"
+        app:layout_constraintEnd_toStartOf="@+id/day2-3"
+        app:layout_constraintTop_toTopOf="@+id/day2-4" />
+
+    <Button
+        android:id="@+id/day2-3"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day2-4"
+        app:layout_constraintEnd_toStartOf="@+id/day2-4"
+        app:layout_constraintTop_toTopOf="@+id/day2-4" />
+
+    <Button
+        android:id="@+id/day2-4"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintEnd_toStartOf="@+id/day1-5"
+        app:layout_constraintStart_toStartOf="@+id/day1-4"
+        app:layout_constraintTop_toBottomOf="@+id/day1-4" />
+
+    <Button
+        android:id="@+id/day2-5"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day2-4"
+        app:layout_constraintStart_toEndOf="@+id/day2-4"
+        app:layout_constraintTop_toTopOf="@+id/day2-4" />
+
+    <Button
+        android:id="@+id/day2-6"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day2-4"
+        app:layout_constraintStart_toEndOf="@+id/day2-5"
+        app:layout_constraintTop_toTopOf="@+id/day2-4" />
+
+    <Button
+        android:id="@+id/day2-7"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day2-4"
+        app:layout_constraintStart_toEndOf="@+id/day2-6"
+        app:layout_constraintTop_toTopOf="@+id/day2-4" />
+
+    <Button
+        android:id="@+id/day3-1"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day3-4"
+        app:layout_constraintEnd_toStartOf="@+id/day3-2"
+        app:layout_constraintTop_toTopOf="@+id/day3-4" />
+
+    <Button
+        android:id="@+id/day3-2"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day3-4"
+        app:layout_constraintEnd_toStartOf="@+id/day3-3"
+        app:layout_constraintTop_toTopOf="@+id/day3-4" />
+
+    <Button
+        android:id="@+id/day3-3"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day3-4"
+        app:layout_constraintEnd_toStartOf="@+id/day3-4"
+        app:layout_constraintTop_toTopOf="@+id/day3-4" />
+
+    <Button
+        android:id="@+id/day3-4"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintEnd_toStartOf="@+id/day1-5"
+        app:layout_constraintStart_toStartOf="@+id/day1-4"
+        app:layout_constraintTop_toBottomOf="@+id/day2-4" />
+
+    <Button
+        android:id="@+id/day3-5"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day3-4"
+        app:layout_constraintStart_toEndOf="@+id/day3-4"
+        app:layout_constraintTop_toTopOf="@+id/day3-4" />
+
+    <Button
+        android:id="@+id/day3-6"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day3-4"
+        app:layout_constraintStart_toEndOf="@+id/day3-5"
+        app:layout_constraintTop_toTopOf="@+id/day3-4" />
+
+    <Button
+        android:id="@+id/day3-7"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day3-4"
+        app:layout_constraintStart_toEndOf="@+id/day3-6"
+        app:layout_constraintTop_toTopOf="@+id/day3-4" />
+
+    <Button
+        android:id="@+id/day4-1"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day4-4"
+        app:layout_constraintEnd_toStartOf="@+id/day4-2"
+        app:layout_constraintTop_toTopOf="@+id/day4-4" />
+
+    <Button
+        android:id="@+id/day4-2"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day4-4"
+        app:layout_constraintEnd_toStartOf="@+id/day4-3"
+        app:layout_constraintTop_toTopOf="@+id/day4-4" />
+
+    <Button
+        android:id="@+id/day4-3"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day4-4"
+        app:layout_constraintEnd_toStartOf="@+id/day4-4"
+        app:layout_constraintTop_toTopOf="@+id/day4-4" />
+
+    <Button
+        android:id="@+id/day4-4"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintEnd_toStartOf="@+id/day1-5"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/day1-4"
+        app:layout_constraintTop_toBottomOf="@+id/day3-4" />
+
+    <Button
+        android:id="@+id/day4-5"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day4-4"
+        app:layout_constraintStart_toEndOf="@+id/day4-4"
+        app:layout_constraintTop_toTopOf="@+id/day4-4" />
+
+    <Button
+        android:id="@+id/day4-6"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day4-4"
+        app:layout_constraintStart_toEndOf="@+id/day4-5"
+        app:layout_constraintTop_toTopOf="@+id/day4-4" />
+
+    <Button
+        android:id="@+id/day4-7"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day4-4"
+        app:layout_constraintStart_toEndOf="@+id/day4-6"
+        app:layout_constraintTop_toTopOf="@+id/day4-4" />
+
+    <Button
+        android:id="@+id/day5-1"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day5-4"
+        app:layout_constraintEnd_toStartOf="@+id/day5-2"
+        app:layout_constraintTop_toTopOf="@+id/day5-4" />
+
+    <Button
+        android:id="@+id/day5-2"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day5-4"
+        app:layout_constraintEnd_toStartOf="@+id/day5-3"
+        app:layout_constraintTop_toTopOf="@+id/day5-4" />
+
+    <Button
+        android:id="@+id/day5-3"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day5-4"
+        app:layout_constraintEnd_toStartOf="@+id/day5-4"
+        app:layout_constraintTop_toTopOf="@+id/day5-4" />
+
+    <Button
+        android:id="@+id/day5-4"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintEnd_toStartOf="@+id/day1-5"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="@+id/day1-4"
+        app:layout_constraintTop_toBottomOf="@+id/day4-4" />
+
+    <Button
+        android:id="@+id/day5-5"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day5-4"
+        app:layout_constraintStart_toEndOf="@+id/day5-4"
+        app:layout_constraintTop_toTopOf="@+id/day5-4" />
+
+    <Button
+        android:id="@+id/day5-6"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day5-4"
+        app:layout_constraintStart_toEndOf="@+id/day5-5"
+        app:layout_constraintTop_toTopOf="@+id/day5-4" />
+
+    <Button
+        android:id="@+id/day5-7"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day5-4"
+        app:layout_constraintStart_toEndOf="@+id/day5-6"
+        app:layout_constraintTop_toTopOf="@+id/day5-4" />
+
+    <Button
+        android:id="@+id/day6-1"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day6-4"
+        app:layout_constraintEnd_toStartOf="@+id/day6-2"
+        app:layout_constraintTop_toTopOf="@+id/day6-4" />
+
+    <Button
+        android:id="@+id/day6-2"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day6-4"
+        app:layout_constraintEnd_toStartOf="@+id/day6-3"
+        app:layout_constraintTop_toTopOf="@+id/day6-4" />
+
+    <Button
+        android:id="@+id/day6-3"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day6-4"
+        app:layout_constraintEnd_toStartOf="@+id/day6-4"
+        app:layout_constraintTop_toTopOf="@+id/day6-4" />
+
+    <Button
+        android:id="@+id/day6-4"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintEnd_toStartOf="@+id/day1-5"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="@+id/day1-4"
+        app:layout_constraintTop_toBottomOf="@+id/day5-4" />
+
+    <Button
+        android:id="@+id/day6-5"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day6-4"
+        app:layout_constraintStart_toEndOf="@+id/day6-4"
+        app:layout_constraintTop_toTopOf="@+id/day6-4" />
+
+    <Button
+        android:id="@+id/day6-6"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day6-4"
+        app:layout_constraintStart_toEndOf="@+id/day6-5"
+        app:layout_constraintTop_toTopOf="@+id/day6-4" />
+
+    <Button
+        android:id="@+id/day6-7"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:background="#C9F0FF"
+
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/day6-4"
+        app:layout_constraintStart_toEndOf="@+id/day6-6"
+        app:layout_constraintTop_toTopOf="@+id/day6-4" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8604651" />
+
+</android.support.constraint.ConstraintLayout>
